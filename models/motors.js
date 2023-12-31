@@ -17,7 +17,7 @@ const motorsSchema = new mongoose.Schema(
     },
     licence: {
       type: String,
-      required: true,
+      required: false,
     },
   },
   {
